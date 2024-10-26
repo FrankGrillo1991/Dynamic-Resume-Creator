@@ -58,3 +58,9 @@ button {
 button:hover {
     font-size: medium;
 }
+
+.output-container {
+    display: none;
+    width: 60%;
+    margin: 10px auto;
+}
