@@ -139,6 +139,16 @@ a:hover {
     font-weight: bold;
 }
 
+/* Media queries begin */
+@media screen and (max-width: 920px) {
+    .container {
+        width: 100%;
+    }
+    .output-container {
+        width: 87%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .resume-builder {
         padding: 10px 30px;
@@ -157,3 +167,5 @@ a:hover {
         width: 100%;
     }
 }
+
+/* Media queries end here */
