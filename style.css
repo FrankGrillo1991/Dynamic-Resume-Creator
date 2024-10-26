@@ -64,3 +64,9 @@ button:hover {
     width: 60%;
     margin: 10px auto;
 }
+
+.output {
+    background-color: white;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
