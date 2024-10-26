@@ -138,3 +138,22 @@ a:hover {
     color: rgb(247, 28, 12);
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .resume-builder {
+        padding: 10px 30px;
+    }
+    h1 {
+        font-size: 160%;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .left {
+        border-right: none;
+    }
+    .right {
+        padding-left: 0;
+        width: 100%;
+    }
+}
