@@ -13,3 +13,12 @@ body {
 .resume-builder {
     padding: 27px 100px;
 }
+
+.container {
+    padding: 10px 30px;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    height: auto;
+    width: 60%;
+    margin: auto;
+}
