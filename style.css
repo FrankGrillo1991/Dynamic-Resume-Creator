@@ -22,3 +22,11 @@ body {
     width: 60%;
     margin: auto;
 }
+
+.container h1 {
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
