@@ -1,0 +1,1 @@
+Dynamic Resume Creator developed with HTML, CSS & JavaScript
