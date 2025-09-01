@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Creator</title>
+    <meta name="description" content="Create a dynamic resume effortlessly with our user-friendly resume builder.">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Dynamic Resume Creator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,54 +17,63 @@
         <div class="container">
             <h1>Resume Creator</h1>
             <div class="resume_container">
-                <form class="inputField">
-                    <input type="text"
-                            name="name"
-                            placeholder="Your Name"
-                            title="Enter Your Name" />
-                    <input type="text"
-                            name="title"
-                            placeholder="Title/Sub Heading"
-                            title="Enter Title/Sub Heading" />
-                    <textarea name="work_experience"
-                            placeholder="Work Experience"
-                            cols="40" rows="3"
-                            title="Enter York Work Experience">
-                    </textarea>
-                    <textarea name="academic_experience"
-                            placeholder="Academic Details"
-                            cols="40" rows="3"
-                            title="Enter Your Academic Details">
-                    </textarea>
-                    <input type="text" placeholder="Objective"
-                        title="Enter Your Objective"
-                        name="objective" />
-                    <textarea name="skills"
-                            title="Enter Your Skills"
-                            placeholder="Skills" cols="40"
-                            rows="3" />
-                    </textarea>
-                    <textarea name="projects"
-                            title="Enter Your Projects"
-                            placeholder="Projects"
-                            cols="40"
-                            rows="3" />
-                    </textarea>
-                    <textarea name="achievements"
-                            placeholder="Achievements"
-                            cols="40" rows="3"
-                            title="Enter Your Achievements">
-                    </textarea>
-                    <textarea name="contact"
-                            placeholder="Contact Information"
-                            cols="40" rows="3"
-                            title="Enter Your Contact Information">
-                    </textarea>
+        <form class="inputField">
+            <input type="text"
+                name="name"
+                placeholder="Your Name"
+                title="Enter Your Name"
+                aria-label="Full Name" />
+            <input type="text"
+                name="title"
+                placeholder="Title/Sub Heading"
+                title="Enter Title/Sub Heading"
+                aria-label="Title or Sub Heading" />
+            <textarea name="work_experience"
+                placeholder="Work Experience"
+                cols="40" rows="3"
+                title="Enter York Work Experience"
+                aria-label="Work Experience">
+            </textarea>
+            <textarea name="academic_experience"
+                placeholder="Academic Details"
+                cols="40" rows="3"
+                title="Enter Your Academic Details"
+                aria-label="Academic Details">
+            </textarea>
+            <input type="text" placeholder="Objective"
+            title="Enter Your Objective"
+            name="objective"
+            aria-label="Objective" />
+            <textarea name="skills"
+                title="Enter Your Skills"
+                placeholder="Skills" cols="40"
+                rows="3"
+                aria-label="Skills" />
+            </textarea>
+            <textarea name="projects"
+                title="Enter Your Projects"
+                placeholder="Projects"
+                cols="40"
+                rows="3"
+                aria-label="Projects" />
+            </textarea>
+            <textarea name="achievements"
+                placeholder="Achievements"
+                cols="40" rows="3"
+                title="Enter Your Achievements"
+                aria-label="Achievements">
+            </textarea>
+            <textarea name="contact"
+                placeholder="Contact Information"
+                cols="40" rows="3"
+                title="Enter Your Contact Information"
+                aria-label="Contact Information">
+            </textarea>
                 </form>
             </div>
             <p class="credit">
                 Created by
-                <a href="https://auth.geeksforgeeks.org/user/lunatic1/articles" target="_blank">
+                <a href="https://auth.geeksforgeeks.org/user/lunatic1/articles" target="_blank" rel="noopener" aria-label="Author lunatic1 on GeeksforGeeks">
                     lunatic1
                 </a>
             </p>
@@ -78,9 +89,9 @@
       <!-- output container ends here -->
 
       <!-- preview button -->
-       <button onclick="hide()">
-        Generate / Edit
-       </button>
+    <button onclick="hide()" aria-label="Generate or Edit Resume">
+     Generate / Edit
+    </button>
 
        <script src="script.js"></script>
 </body>
