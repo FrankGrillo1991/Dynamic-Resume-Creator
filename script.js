@@ -27,7 +27,7 @@ function hide() {
                     </div>
                     <div class="box">
                         <h2>Academic Details</h2>
-                        <p>${inputField["academic_details"].value}</p>
+                        <p>${inputField["academic_experience"].value}</p>
                     </div>
                     <div class="box">
                         <h2>Contact</h2>
